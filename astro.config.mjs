@@ -11,6 +11,7 @@ export default defineConfig({
 			},
 			social: {
 				github: 'https://github.com/chaibuilder',
+				discord: 'https://discord.gg/33QEAv4h',
 			},
 			sidebar: [
 				{
@@ -45,7 +46,7 @@ export default defineConfig({
 				{
 					label: 'Controls',
 					items: [
-						{ label: 'Overview', link: '/controls/overview' },
+						{ label: 'Overview', link: '/controls/controls-overview' },
 						{ label: 'Styles', link: '/controls/styles' },
 						{ label: 'SingleLineText', link: '/controls/single-line-text' },
 						{ label: 'MultiLineText', link: '/controls/multi-line-text' },

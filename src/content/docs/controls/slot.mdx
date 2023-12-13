@@ -1,0 +1,43 @@
+---
+title: Slot Control
+description: Chai Builder Block Controls
+---
+
+`Slot` control is a special control that allows to render other blocks inside it. It is useful when you want to create a block that can contain other blocks inside it.
+For example, `Accordion` block can contain `AccordionItem` blocks inside it. `Slot` control is also used to create `Layout` block.
+
+#### Usage
+
+```js
+import { Slot, registerChaiBlock } from "@chaibuilder/blocks";
+
+const YourBlock = ({ accordionContent, accordionTitle }) => {
+    return <Accordion>
+        <AccordionTitle title="Item 1">
+           {accordionTitle}
+        </AccordionTitle>
+        <AccordionContent>
+            {accordionContent}
+        </AccordionContent>
+    </Accordion>
+}
+
+registerChaiBlock(YourBlock, {
+    type: 'YourBlock',
+    label: 'Your Block',
+    category: 'Basic',
+    props: {
+        accordionTitle: Slot({ name: 'Accordion Title'}),
+        accordionContent: Slot({name: 'Accordion Content'})
+    }
+})
+
+```
+
+
+#### Arguments
+
+- `default` - Default value for control.
+- `title` - Title of control visible in Chai Builder block settings panel
+- `placeholder` - Placeholder text for control
+- `binding` - Binding flag for control. Default value is `true`. If `false` then control will not be visible in binding panel.
