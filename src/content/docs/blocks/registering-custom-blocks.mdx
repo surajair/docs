@@ -11,6 +11,10 @@ To register a block with the Chai Builder, follow these steps.
 
 Chai Builder will automatically pass the necessary props to the component bases on the block configuration.
 
+:::tip[Note]
+`blockProps` is automatically added by the Chai Builder as prop to registered blocks.
+Spread this prop to the root element of your block to make it selectable.
+:::
 
 ```javascript
 import { registerChaiBlock, MultilineText, Styles } from '@chaibuilder/blocks';
