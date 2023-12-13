@@ -1,6 +1,6 @@
 ---
-title: Example Guide
-description: A guide in my new Starlight docs site.
+title: What is Chai Builder?
+description: Chai Builder is a low code tool for building content driven websites.
 ---
 
 Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
