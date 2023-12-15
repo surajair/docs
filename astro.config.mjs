@@ -3,6 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://docs.chaibuilder.com',
 	integrations: [
 		starlight({
 			title: 'Chai Builder',
@@ -63,12 +64,11 @@ export default defineConfig({
 						{ label: 'Image', link: '/controls/image' },
 						{ label: 'Checkbox', link: '/controls/checkbox' },
 					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
+				}
 			],
+			components: {
+				Footer: './src/components/Footer.astro',
+			}
 		}),
 	],
 });

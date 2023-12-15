@@ -4,6 +4,7 @@ specifiers:
   '@astrojs/check': ^0.3.2
   '@astrojs/starlight': ^0.15.0
   astro: ^4.0.1
+  astro-analytics: ^2.7.0
   prettier: ^3.1.1
   sharp: ^0.32.5
   typescript: ^5.3.3
@@ -12,6 +13,7 @@ dependencies:
   '@astrojs/check': 0.3.2_ukewchug7bu7v2icv64nvui5ua
   '@astrojs/starlight': 0.15.0_astro@4.0.4
   astro: 4.0.4_typescript@5.3.3
+  astro-analytics: 2.7.0
   sharp: 0.32.6
   typescript: 5.3.3
 
@@ -1160,6 +1162,10 @@ packages:
   /astring/1.8.6:
     resolution: {integrity: sha512-ISvCdHdlTDlH5IpxQJIex7BWBywFWgjJSVdwst+/iQCoEYnyOaQ95+X1JGshuBjGp6nxKUy1jMgE3zPqN7fQdg==}
     hasBin: true
+    dev: false
+
+  /astro-analytics/2.7.0:
+    resolution: {integrity: sha512-/qctBn7LF9DS3ff2YYFrYtCkLLw2fboPDJUgg3HErygGbEBvebW/eGRftZH4ykDJhlCvwTsSEKz/vff7WllyAw==}
     dev: false
 
   /astro-expressive-code/0.29.4_astro@4.0.4:
