@@ -38,9 +38,9 @@ export default defineConfig({
 					label: 'Chai Data Providers',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Overview', link: '/start/s/' },
-						{ label: 'Registering a data provider', link: '/blocks/registering-data-providers' },
-						{ label: 'Data binding', link: '/start/nextjs-app/' },
+						{ label: 'Overview', link: '/data-provider/overview' },
+						{ label: 'Registering a data provider', link: '/data-provider/registering-data-provider' },
+						// { label: 'Data binding', link: '/data-provider/data-binding' },
 					],
 				},
 				{
