@@ -6,6 +6,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Chai Builder',
+			description: 'Low-code tool for visually building content driven websites.',
 			logo: {
 				src: './src/assets/logo.png'
 			},
