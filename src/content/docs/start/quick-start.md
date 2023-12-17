@@ -7,9 +7,11 @@ description: Get started with Chai Builder in 5 minutes.
 
 ##### Step 1:
 Create a free app on [Chai Builder](https://apps.chaibuilder.com/) and get the Auth token & app key. This works
-as a backend service for your app. You can also use your own backend service if you want with 
-some additional setup.
+as a backend service for your app. 
 
+:::note
+You can also use your own backend service if you wish to with some additional setup.
+:::
 
 ##### Step 2:
 Run the following command in your terminal. This command will create a new `Next JS` 
