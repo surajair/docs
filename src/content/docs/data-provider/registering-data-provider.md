@@ -1,7 +1,8 @@
 ---
-  title: Registering a data provider
-  description: Deploy Chai Builder Apps
+title: Registering a data provider
+description: Deploy Chai Builder Apps
 ---
+
 
 To register a block with the Chai Data Provider, follow these steps.
 

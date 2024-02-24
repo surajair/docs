@@ -10,13 +10,23 @@ with any React based framework like Next.js, Gatsby, Astro etc.
 The core idea behind Chai Builder is to provide a visual interface for building websites for
 `Content-Creators`, `HTML Designers` and `Developers`.
 
-## Features
+## _Features_
 
-- **Visual builder** - Chai Builder provides a visual interface for building websites. It is a 
-  drag and drop builder that allows you to build websites without writing code.
-- **Headless CMS** - Chai Builder connects to any headless CMS. It allows you to build websites using 
-  any headless CMS, JSON API or GraphQL API.
-- **React based** - Chai Builder is built using React and Tailwind CSS. It easily integrates with 
-  any React based framework like Next.js, Gatsby, Astro etc.
-- **Customizable** - Chai Builder is highly customizable. You can customize the builder to suit 
-  your needs.
+#### Its just plain React
+ChaiBuilder in a nutshell is a react component. It can be integrated into any React based framework like NextJS, Remix, Gatsby, Astro. We have created a starter with Next JS to get you started.
+
+#### Visual editing with limitless styling
+Easily enhance your website's appearance with intuitive visual editing and styling tools. Our drag and drop Tailwind CSS builder empowers you to make design changes effortlessly. No need for coding or technical expertise; it's as simple as drag, drop, and customize.
+
+#### Create your own custom blocks
+You can create your own custom blocks to customize the blocks behaviour. Build anything from a simple heading to a complex sliders or other ui interactions. Just create a React component and register it with Chai Builder.
+
+#### Connect external data source
+Chai Builder allows two way to add content on your website. You can choose to add static content or fetch data from external sources like DB, CMS etc and bind it to block props inside builder
+
+#### Extend builder to add custom functionality
+Extensibility is built into Chai Builder. You can extend Chai Builder editor by adding custom panels, components at specific extension points. This allows the user to add functionality to builder without modifying the core.
+
+#### Import Tailwind CSS snippets
+Best thing about Tailwind CSS is the ecosystem. Chai Builder makes it easy to import Tailwind CSS snippets into builder and further modify them as needed. This significanlty improves the development time to build UI.
+

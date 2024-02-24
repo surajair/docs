@@ -1,6 +1,6 @@
 ---
 title: Chai Builder Docs
-description: Low-code tool for visually building content driven websites
+description: Low-code Visual Builder for React
 template: splash
 hero:
   tagline: Lets get started building your site with Chai Builder
