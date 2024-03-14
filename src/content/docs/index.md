@@ -11,7 +11,7 @@ hero:
       link: /start/what-is-chai-builder
       icon: right-arrow
       variant: primary
-    - text: Goto apps.chaibuilder.com
-      link: https://apps.chaibuilder.com
+    - text: Goto chaibuilder.com
+      link: https://chaibuilder.com
       icon: external
 ---
