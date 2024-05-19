@@ -3,7 +3,7 @@ title: Quick Start
 description: Get started with Chai Builder in 5 minutes.
 ---
 
-### Getting started
+### Getting started with NextJS
 
 ##### Step 1:
 Create a free app on [Chai Builder](https://apps.chaibuilder.com/) and get the Auth token & app key. This works

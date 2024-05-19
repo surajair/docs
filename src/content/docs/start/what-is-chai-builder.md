@@ -3,12 +3,9 @@ title: What is Chai Builder?
 description: Chai Builder is a low code tool for building content driven websites.
 ---
 
-Chai Builder is a **React + Tailwind CSS** based visual builder for building content driven websites. 
-It is a low code tool that allows you to build websites visually. It easily integrates 
+Chai Builder is an React based open-source library that lets developers easily add a drag-and-drop page builder, perfect for creating marketing and landing pages. It easily integrates 
 with any React based framework like Next.js, Gatsby, Astro etc.
 
-The core idea behind Chai Builder is to provide a visual interface for building websites for
-`Content-Creators`, `HTML Designers` and `Developers`.
 
 ## _Features_
 

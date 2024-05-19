@@ -21,6 +21,7 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'What is Chai Builder?', link: '/start/what-is-chai-builder' },
+						{ label: 'Manual Installation', link: '/start/manual-installation' },
 						{ label: 'Quick start (NextJS)', link: '/start/quick-start' },
 						{ label: 'Packages', link: '/start/packages' },
 						{ label: 'Starters', link: '/start/starters' },
