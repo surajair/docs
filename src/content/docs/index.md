@@ -3,7 +3,7 @@ title: Chai Builder Docs
 description: Low-code Visual Builder for React
 template: splash
 hero:
-  tagline: Lets get started building your site with Chai Builder
+  tagline: Build your own page builder solution
   image:
     file: ../../assets/houston.webp
   actions:
