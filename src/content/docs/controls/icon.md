@@ -32,4 +32,3 @@ registerChaiBlock(YourBlock, {
 
 - `default` - Default value for control.
 - `title` - Title of control visible in Chai Builder block settings panel
-- `binding` - Binding flag for control. Default value is `true`. If `false` then control will not be visible in binding panel.

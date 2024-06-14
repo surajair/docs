@@ -17,20 +17,27 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Getting Started',
+					label: 'Overview',
 					items: [
-						// Each item here is one entry in the navigation menu.
 						{ label: 'What is Chai Builder?', link: '/start/what-is-chai-builder' },
-						{ label: 'Manual Installation', link: '/start/manual-installation' },
-						{ label: 'Quick start (NextJS)', link: '/start/quick-start' },
-						{ label: 'Packages', link: '/start/packages' },
-						{ label: 'Starters', link: '/start/starters' },
-						{ label: 'Deploy', link: '/start/deploy' },
-						{ label: 'Changelog', link: '/start/changelog' },
 					],
 				},
 				{
-					label: 'Chai Blocks',
+					label: "ChaiBuilderEditor",
+					items: [
+						{ label: 'Installation', link: '/start/manual-installation' },
+					]
+				},
+				{
+					label: "ChaiBuilderStudio",
+					items: []
+				},
+				{
+					label: "ChaiBuilderEmail",
+					items: []
+				},
+				{
+					label: 'Blocks',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Overview', link: '/blocks/overview' },
@@ -38,7 +45,7 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Chai Data Providers',
+					label: 'Data Providers',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Overview', link: '/data-provider/overview' },
